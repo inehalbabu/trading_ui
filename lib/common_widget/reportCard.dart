@@ -19,7 +19,8 @@ Widget reportCard({String? heading, String? type, String? targetHit, String? cur
       Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          heading!.text.fontFamily(roboto).size(22).bold.fontFamily(roboto).make(),
+          5.heightBox,
+          heading!.text.fontFamily(roboto).size(20).bold.fontFamily(roboto).make(),
           10.heightBox,
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -63,5 +64,5 @@ Widget reportCard({String? heading, String? type, String? targetHit, String? cur
         ],
       ).box.padding(const EdgeInsets.all(12)).make(),
     ],
-  ).box.white.rounded.border(color: Colors.black, width: 0.5).margin(const EdgeInsets.only(right: 20, top: 10, bottom: 10)).make();
+  ).box.white.rounded.border(color: Colors.black26, width: 0.3).margin(const EdgeInsets.only(right: 20, top: 10, bottom: 10)).make();
 }
